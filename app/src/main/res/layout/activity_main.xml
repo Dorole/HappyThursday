@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ffe1eb" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happythursday"
+        android:layout_above="@id/smile_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="20dp"
+        android:src="@drawable/toast" />
+
+    <TextView
+        android:id="@+id/happythursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy_thursday"
+        android:fontFamily="casual"
+        android:textSize="35sp"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <TextView
+        android:id="@+id/smile_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smile_it_s_almost"
+        android:fontFamily="casual"
+        android:textSize="30sp"
+        android:layout_above="@id/friday"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friday"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:paddingBottom="16dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
